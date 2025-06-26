@@ -1,16 +1,22 @@
-# Node rules:
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.h5
+*.joblib
 
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
-node_modules
+# Virtual environment
+venv/
+.env/
 
-# Book build output
-_book
+# System files
+.DS_Store
+Thumbs.db
 
-# eBook build output
-*.epub
-*.mobi
-*.pdf
+# Dataset and uploads
+uploads/
+extracted_images/
+face_recognition_model.h5
+scaler.pkl
+pca.pkl
+label_dict.pkl
