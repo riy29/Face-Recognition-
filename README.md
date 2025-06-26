@@ -5,6 +5,7 @@ This project implements a web-based face recognition system using Principal Comp
 ## Models Used
 - PCA (Scikit-learn)
 - ANN (TensorFlow / Keras)
+- Uses Numpy and Scipy
 
 ## Workflow
 1. Upload & extract dataset
